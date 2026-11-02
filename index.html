@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Piante d'Asporto · scambio piante a Torino</title>
+  <meta name="description" content="L'evento di scambio per chi ha molte piante. Forse troppe. Sicuramente doppie. Porta una pianta, prendi una pianta.">
+  <link rel="canonical" href="https://piantedasporto.it/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="Piante d'Asporto">
+  <meta property="og:title" content="Piante d'Asporto">
+  <meta property="og:description" content="L'evento di scambio per chi ha molte piante. Forse troppe. Sicuramente doppie.">
+  <meta property="og:url" content="https://piantedasporto.it/">
+  <meta property="og:image" content="https://piantedasporto.it/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Il logo di Piante d'Asporto, un bicchiere da asporto pieno di piante, con la scritta Scambio piante vedo gente">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preload" href="fonts/homemade-apple-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="tratto" viewBox="0 0 600 24">
+      <path d="M4 14.5C62 8.2 118 16.9 186 11.6S318 6.4 392 12.8 520 16.6 596 9.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M210 15.6c40-2.4 86-1.8 128 .4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity=".55"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header home">
+    <div class="wrap">
+      <nav class="nav" aria-label="Principale">
+        <ul>
+          <li><a href="./" aria-current="page">Home</a></li>
+          <li><a href="regolamento.html">Regolamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero">
+      <div class="wrap">
+        <figure class="logo-lockup">
+          <picture>
+            <source type="image/webp" srcset="img/logo-320.webp 320w, img/logo-640.webp 640w, img/logo-1040.webp 1040w" sizes="(min-width: 56rem) 23rem, 78vw">
+            <img src="img/logo-640.png" srcset="img/logo-320.png 320w, img/logo-640.png 640w, img/logo-1040.png 1040w" sizes="(min-width: 56rem) 23rem, 78vw" width="640" height="586" alt="Piante d'Asporto: un bicchiere da asporto con cannuccia, pieno di piante" fetchpriority="high">
+          </picture>
+          <div class="bolle" aria-hidden="true"><span></span><span></span><span></span></div>
+          <figcaption class="payoff">Scambio piante vedo gente</figcaption>
+        </figure>
+
+        <div class="hero-text">
+          <h1>Piante d'Asporto</h1>
+          <p class="sottotitolo">L'evento di scambio per chi ha molte piante. <span>Forse troppe. Sicuramente doppie.</span></p>
+          <p>Se hai tante piante e non ne vuoi di più, ma ne vuoi comunque altre, questo è l'evento che fa al caso tuo.</p>
+          <p><span class="hashtag">#Piantedasporto</span> è l'evento per chi ha tante piante (forse troppe, sicuramente doppie) che permette di scambiarle con altre persone, scoprire cose nuove sul mondo vegetale e far fiorire la propria passione.</p>
+        </div>
+      </div>
+    </section>
+
+    <svg class="tratto" aria-hidden="true" focusable="false"><use href="#tratto"/></svg>
+
+    <section class="sezione" id="appuntamenti" aria-labelledby="titolo-appuntamenti">
+      <div class="wrap">
+        <h2 id="titolo-appuntamenti">Prossimi appuntamenti</h2>
+
+        <!--
+          SCHEDE EVENTO
+          Per aggiungere un evento copia un <li> e cambia i dati.
+          data-date (AAAA-MM-GG) serve a nascondere da solo gli eventi passati.
+          Se nessun evento è futuro, la sezione mostra "In arrivo".
+        -->
+        <ul class="eventi" data-eventi>
+          <li class="evento" data-date="2025-04-06">
+            <h3 class="fascetta"><small>#Piantedasporto</small> <span class="quartiere">San Salvario</span></h3>
+            <p class="data"><time datetime="2025-04-06">06 aprile 2025</time></p>
+            <p class="sede"><strong>@Casa del Quartiere di San Salvario</strong> via Morgari 14, Torino</p>
+
+            <p class="claim">Scambio piante: porta una pianta, prendi una pianta!</p>
+
+            <ol class="programma">
+              <li>
+                <h4><span class="ora">Ore 16:00</span> raccolta piante</h4>
+                <p>Porta le piante o le talee che desideri scambiare, e ricevi in cambio un talloncino.</p>
+              </li>
+              <li>
+                <h4><span class="ora">Ore 17:30</span> scambio piante</h4>
+                <p>Restituendo il talloncino potrai prendere una pianta o una talea in cambio. Voilà!</p>
+              </li>
+              <!-- Workshop, solo se presente:
+              <li>
+                <h4><span class="ora">Ore 15:00</span> workshop: titolo</h4>
+                <p>Descrizione breve.</p>
+              </li>
+              -->
+            </ol>
+
+            <p class="leggi"><span aria-hidden="true">🪴</span> Mi raccomando, <a href="regolamento.html">leggi il regolamento!</a> <span aria-hidden="true">🪴</span></p>
+            <p class="azione"><a class="btn" href="regolamento.html#info" data-mail="Partecipo a #Piantedasporto San Salvario">Vuoi partecipare?</a></p>
+          </li>
+        </ul>
+
+        <div class="in-arrivo" data-in-arrivo hidden>
+          <p class="script">Nessuna data in calendario, per ora.</p>
+          <p>Intanto annaffia, rinvasa, fai talee. Per sapere quando e dove: <a href="regolamento.html#info" data-mail="">scrivici</a>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <svg class="tratto corto" aria-hidden="true" focusable="false"><use href="#tratto"/></svg>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <picture>
+        <source type="image/webp" srcset="img/logo-160.webp 160w, img/logo-320.webp 320w" sizes="7rem">
+        <img class="logo-footer" src="img/logo-320.png" width="320" height="293" alt="" loading="lazy" decoding="async">
+      </picture>
+      <p class="payoff">Scambio piante vedo gente</p>
+      <p>Info: <a href="regolamento.html#info" data-mail="">piantedasporto[at]gmail.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
