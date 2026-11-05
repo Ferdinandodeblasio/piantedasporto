@@ -198,14 +198,14 @@ a:hover { color: var(--petrolio); text-decoration-thickness: 2px; }
 
 /* ---------- scheda evento ---------- */
 
-.eventi { display: grid; gap: 3.5rem 2rem; list-style: none; margin: 0; padding: 0; }
-@media (min-width: 52rem) { .eventi { grid-template-columns: repeat(2, 1fr); } }
+/* flex e non grid: una scheda sola resta al centro, due stanno affiancate */
+.eventi { display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 3.5rem 2rem; list-style: none; margin: 0; padding: 0; }
 
 .evento {
   position: relative;
   padding: 3.25rem 1.4rem 1.75rem;
   margin-top: 1.25rem;
-  max-width: 34rem; justify-self: center; width: 100%;
+  flex: 1 1 22rem; max-width: 34rem;
 }
 .evento::before {
   content: ""; position: absolute; inset: 0;
